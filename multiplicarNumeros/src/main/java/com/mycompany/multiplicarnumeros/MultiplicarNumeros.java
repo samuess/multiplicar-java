@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.multiplicarnumeros;
-
-/**
- *
- * @author Usuario
- */
+import java.util.Scanner;
 public class MultiplicarNumeros {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner lector = new Scanner(System.in);
+        double n1 = lector.nextInt();
+        double n2 = lector.nextInt();
+        double res = n1*n2;
+        System.out.println("El Resultado de la multiplicación es: " + res);                
     }
 }
